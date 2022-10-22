@@ -1,11 +1,11 @@
 import random
 
-#k = int(input('Enter k: '))
-k = 5
+k = int(input('Enter k: '))
+#k = 5
 coef = []
 i = 0
 while i <= k:
-    coef.append(random.randint(0, 5))
+    coef.append(random.randint(0, 101))
     i += 1
 print(f'{k} to {coef}')
 
